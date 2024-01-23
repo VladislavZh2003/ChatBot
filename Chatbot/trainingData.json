@@ -1,0 +1,265 @@
+{
+    "purposes": [
+        {
+            "label": "greeting",
+            "templates": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good day",
+                "Excuse me",
+                "Nice to see you"
+            ],
+            "answers": [
+                "Hello!",
+                "Howdy!",
+                "Hey, thanks for your visiting",
+                "Hi there, What can I Do for you?",
+                "Hello there, how can I help?",
+                "Nice to see you. How can i help?"
+            ]
+        },
+        {
+            "label": "goodbye",
+            "templates": [
+                "Bye",
+                "See you later",
+                "Have a nice day",
+                "Goodbye"
+            ],
+            "answers": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "I look forward to our next meeting.",
+                "Hope you have a wonderful day.",
+                "Bye! Come back again soon.",
+                "Get well soon!",
+                "Take care!"
+            ]
+        },
+        {
+            "label": "thanks",
+            "templates": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "answers": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure.",
+                "I'm glad I was helpful"
+            ]
+        },
+        {
+            "label": "items",
+            "templates": [
+                "Which items Do you have?",
+                "What kinds of items are there?",
+                "What Do you sell?",
+                "What are you selling?",
+                "What is the subject of your store?",
+                "What is your product"
+            ],
+            "answers": [
+                "We sell sunglasses (polarized and not polarized)",
+                "We have polarized and normal sunglasses!",
+                "We have sunglasses for every style and taste."
+            ]
+        },
+        {
+            "label": "payments",
+            "templates": [
+                "Do you take credit cards",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal",
+                "Are you cash only?",
+                "How can I pay",
+                "I want to pay",
+                "payment in cash?"
+            ],
+            "answers": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal",
+                "You can pay with credit cards, and Paypal (we don't accept cash)"
+            ]
+        },
+        {
+            "label": "delivery",
+            "templates": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When Do I get my delivery",
+                "When will I receive my shipment?",
+                "when I can collect my shipment",
+                "when I can take my shipment",
+                "how time is shipping",
+                "After how time i can take my order?",
+                "When order will come to me"
+            ],
+            "answers": [
+                "Delivery takes 1-2 weeks",
+                "Shipping takes 1-2 weeks",
+                "Shipment takes between 1-2 weeks"
+            ]
+        },
+        {
+            "label": "sunglasses",
+            "templates": [
+                "What glasses Do you offer?",
+                "What sunglasses Do you offer?",
+                "What is the material of the glasses?",
+                "What brands of sunglasses Do you offer?",
+                "what are you sell"
+            ],
+            "answers": [
+                "We sell metal and plastic sunglasses of over 150 different brands.",
+                "The sunglasses we sell are made of high-quality materials from over 150 brands.",
+                "We sell sunglasses of over 150 brands made of plastic or metal."
+            ]
+        },
+        {
+            "label": "price",
+            "templates": [
+                "What is the price?",
+                "What is the price of Gucci",
+                "What's the price of this brand",
+                "What is the price for ...",
+                "How much will the sunglasses cost me",
+                "Do you have glasses under 300",
+                "Do you have glasses over 1000",
+                "What are your most expensive glasses",
+                "What are your cheapest sunglasses",
+                "What is the price of these glasses?",
+                "Do you have glasses under ...",
+                "Do you have sunglasses over ..."
+            ],
+            "answers": [
+                "We sell sunglasses between BGN 30 and BGN 1,600.",
+                "On our product page you can see the sunglasses of each product (glasses between BGN 10 and 1600).",
+                "Our products are in the price range from BGN 30 to BGN 1,600.",
+                "You could see the product prices on our product page.",
+                "Each product has a different price. Our products are in the price range from BGN 30 to BGN 1,600."
+            ]
+        },
+        {
+            "label": "issue",
+            "templates": [
+                "I have a problem",
+                "I have an issue",
+                "I have a problem with my order",
+                "I have an issue with payment",
+                "I can't pay",
+                "I can not order",
+                "can you help me",
+                "can you help me with a problem",
+                "have problem",
+                "has problems",
+                "issue",
+                "issues"
+            ],
+            "answers": [
+                "If you have a problem please write to our technical support. (Email: tech.support.snggroup@smail.com)",
+                "You have a problem? Feel free to write to our technical support. (Email: tech.support.snggroup@smail.com)",
+                "Our technical sport helps are all kinds of issues! (Email: tech.support.snggroup@smail.com)",
+                "Our technical sport's email is tech.support.snggroup@smail.com. Feel free to write to him!"
+            ]
+        },
+        {
+            "label": "buy",
+            "templates": [
+                "Can i buy something",
+                "How can i purchase a product",
+                "Where can i get glasses",
+                "I want to buy sunglasses",
+                "May I order?"  
+            ],
+            "answers": [
+                "You can buy sunglasses from our product page.",
+                "If you would like to buy sunglasses, you can do so after viewing our products on the product page.",
+                "To buy sunglasses just go to the product page and choose what you are looking for :-)."
+            ]
+        },
+        {
+            "label": "name",
+            "templates": [
+                "What is your name?",
+                "how can i tell you",
+                "Your name?"
+            ],
+            "answers": [
+                "My name is Kaloqn.",
+                "You can tell me Kaloqn.",
+                "For you I am Kaloqn who want to help you ;-]"
+            ]
+        },
+        {
+            "label": "place",
+            "templates": [
+                "Where are you from?",
+                "which is your contry",
+                "what is your contry",
+                "where were you born",
+                "which city are you from"
+            ],
+            "answers": [
+                "I am from Sofia, Bulgaria",
+                "I was born in Sofia Bulgaria",
+                "My palce is Sofia, Bulgaria"
+            ]
+        },
+        {
+            "label": "years",
+            "templates": [
+                "How old are you",
+                "how big is you",
+                "how old have you been alive",
+                "are you old"
+            ],
+            "answers": [
+                "I'm only 4 months old and I'm already working at a higher position than you! ;)",
+                "I am 4 months old!",
+                "Age doesn't matter.",
+                "Wisdom is the head not the beard!",
+                "Not old enough to retire. :-|"
+            ]
+        },
+        {
+            "label": "recommend",
+            "templates": [
+                "what will you recommend for me",
+                "what will look good on me",
+                "which glasses are for me"
+            ],
+            "answers": [
+                "What gender are you? Male or female."
+            ],
+            "context_set": "recommendforme"
+        },
+        {
+            "label": "male",
+            "templates": [
+                "male",
+                "i am male",
+                "my gender is male"
+            ],
+            "answers": [
+                "Then for you I can recommend classic models such as Cancer Council and Serengeti Positano."
+            ],
+            "context_filter": "recommendforme"
+        },
+        {
+            "label": "female",
+            "templates": [
+                "female",
+                "i am female",
+                "my gender is female"
+            ],
+            "answers": [
+                "In that case, extravagant models with some ornamentation like Serengeti Pistoia and Serengeti Shelton would suit you."
+            ],
+            "context_filter": "recommendforme"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <h1 style="text-align:center; margin-bottom: 20px; margin-top: 10px;">Product Page</h2>
+
+    <div class="product-container">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses1.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Serengeti Pistoia</h1>
+            <p class="price">BGN269.10</p>
+            <p>Shiny Satin Black/555nm Photochromic Polarised Glass Lenses</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses2.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Serengeti Shelton</h1>
+            <p class="price">BGN386.10</p>
+            <p>Matte Light Gold/Drivers Photochromic Glass Lenses</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses3.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Serengeti Charlton</h1>
+            <p class="price">BGN459.00</p>
+            <p>Shiny Tortoise/Drivers Photochromic Polarised Glass Lenses
+                starstarstarstarstar</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses4.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Serengeti Nunzio</h1>
+            <p class="price">BGN150.00</p>
+            <p>Crystal Dark Brown/PhD CPG Photochromic Polarised Lenses</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses5.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Serengeti Charlton</h1>
+            <p class="price">BGN413.10</p>
+            <p>Shiny Crystal/Blue Gradient Photochromic Polarised Glass Lenses.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses6.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Serengeti Positano</h1>
+            <p class="price">BGN332.10</p>
+            <p>Matte Tortoise/555nm Photochromic Polarised Glass Lenses
+                starsjeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses7.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Cancer Council</h1>
+            <p class="price">BGN23.70</p>
+            <p>Some Black/Smoke Polarised Lenses, Kids Sea Lion - Kids</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/sunglasses8.jpg') }}" alt="Denim Jeans" style="width:100%">
+            <h1>Glarefoil Foord</h1>
+            <p class="price">BGN35.95</p>
+            <p>Tort/Brown Polarised Lenses RRP</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img style="width: 48px; height: 48px;" src="{{ url_for('static', filename='images/support.png') }}"
+                            alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Bot support</h4>
+                        <p class="chatbox__description--header">Hello. My name is Kaloqn. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">GO</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chat-svgrepo-com.svg') }}" /></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root | tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+
+</html>
